@@ -14,12 +14,13 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: "BINH T.TRUONG"
-email: 'binhjdev@gmail.com'
+email: 'jami0821@gmail.com'
 description: "Software Developer"
-baseurl: ""
-url: "http://binhjdev.github.io"
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://binhjdev.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: 'binhjdev'
 github_username: 'binhjdev'
+medium_username: ''
 
 # Build settings
 markdown: kramdown
@@ -31,7 +32,7 @@ plugins:
 paginate: 10
 footer_text: '© 2018 binhjdev'
 admin_name: 'binhjdev'
-google_analytics: "UA-9999999-99"
+google_analytics: "UA-9999999-99" # Update with your own tracking ID
 enable_contact: false
 
 #### Phantom Navigation menu
